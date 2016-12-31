@@ -21,7 +21,7 @@ Installation
 Example usage
 =============
 
-.. code-block:: python
+.. code-block:: pycon
 
     >>> base_url = 'https://camo.example.com/'
     >>> secret_key = b'OMGWTFBBQ'
