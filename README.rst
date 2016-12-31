@@ -1,6 +1,10 @@
 Camo sign
 #########
 
+.. image:: https://travis-ci.org/BKNO3/camo-sign.svg?branch=master
+    :target: https://travis-ci.org/BKNO3/camo-sign
+
+
 Create signed URLs for use with camo_.
 
 .. _camo: https://github.com/atmos/camo
