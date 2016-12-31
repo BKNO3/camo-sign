@@ -29,3 +29,11 @@ Example usage
 
     >>> create_signed_url(base_url, secret_key, image_url)
     https://camo.example.com/22fd0910eeefa6db9d4b105aa92c56d09bccf05f/687474703a2f2f6578616d706c652e636f6d2f696d672e6a7067'
+
+
+Links
+=====
+
+- `PYPI page <https://pypi.python.org/pypi/camo-sign>`_
+- `GitHub repository <https://github.com/BKNO3/camo-sign/>`_
+- `Travis CI builds <https://travis-ci.org/BKNO3/camo-sign>`_
