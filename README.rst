@@ -10,6 +10,14 @@ Create signed URLs for use with camo_.
 .. _camo: https://github.com/atmos/camo
 
 
+Installation
+============
+
+::
+
+    pip install camo-sign
+
+
 Example usage
 =============
 
