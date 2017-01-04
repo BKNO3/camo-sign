@@ -23,6 +23,8 @@ Example usage
 
 .. code-block:: pycon
 
+    >>> from camo_sign import create_signed_url
+
     >>> base_url = 'https://camo.example.com/'
     >>> secret_key = b'OMGWTFBBQ'
     >>> image_url = 'http://example.com/img.jpg'
