@@ -38,17 +38,17 @@ Recipe: replace links in HTML
 
 This can be easily done using eg. ``lxml``:
 
-```python
-def replace_image_links(html, camo_url, camo_key):
-    document = lxml.html.fromstring(html)
-    for elem in document.xpath('//img'):
-        old_src = elem.attrib['src']
-        if old_src.startswith(('http://', 'https://')):
-            new_src = create_signed_url(camo_url, camo_key, old_src)
-            elem.attrib['src'] = new_src
-    output = lxml.html.tostring(document).decode()
-    return output
-```
+.. code-block:: python
+
+    def replace_image_links(html, camo_url, camo_key):
+        document = lxml.html.fromstring(html)
+        for elem in document.xpath('//img'):
+            old_src = elem.attrib['src']
+            if old_src.startswith(('http://', 'https://')):
+                new_src = create_signed_url(camo_url, camo_key, old_src)
+                elem.attrib['src'] = new_src
+        output = lxml.html.tostring(document).decode()
+        return output
 
 
 Links
